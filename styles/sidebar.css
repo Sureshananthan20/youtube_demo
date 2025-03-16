@@ -1,0 +1,28 @@
+.side{
+    position: fixed;
+    top:55px;
+    bottom:0;
+    left:0;
+    width:78px;
+    background-color: white;
+    z-index: 200;
+}
+.side-buttons{
+        height:400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+.sidebar-button{
+    background-color: white;
+    border-width: 0px;
+
+}
+.sidebar-image{
+    width: 25px;
+}
+.side-text{
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

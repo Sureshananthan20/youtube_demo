@@ -1,0 +1,113 @@
+    .thumbnail{
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+
+    }
+    .channel{
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        margin-bottom: 7px;
+                }
+    .preview{
+        font-size: 12px;
+        color: rgb(88, 78, 78);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title{
+        font-weight:500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        line-height: 22px;
+        margin-bottom: 11px;
+    }
+    .a{
+        
+        margin-left: 5px;
+        
+    }
+    .channelpic{
+        width:40px;
+        border-radius: 50px;
+        cursor: pointer;
+        
+    }
+
+
+    .pic{
+        width: 50px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        
+    }
+    
+   .pic .tooltip{
+        
+        display: flex;
+        justify-content: center;
+        background-color: rgb(192, 192, 192);
+        padding: 7px;
+        position: absolute;
+        border-radius: 4px;
+        align-items: center;
+        white-space: nowrap;
+        font :15px solid ;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity:0;
+        transition: opacity 0.20s;
+        bottom: -25px;
+        pointer-events: none;
+        
+    }
+    .pic:hover .tooltip{
+       opacity: 1;
+        
+    }
+    .video-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+
+    }
+    .grid-work{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+       
+    }
+    @media(max-width:750px){
+        .grid-work{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media (min-width:1100px) {
+        .grid-work{
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+        }
+    }
+    .video-duration{
+        position:absolute;
+        right:0;
+    }
+    .duration{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        position: absolute;
+        bottom: 25px;
+        right: 5px;
+        z-index:1 ;
+        padding-top: 3px;
+        padding-left: 4px;
+        padding-bottom:3px ;
+        padding-right: 4px;
+        border-radius: 2px;
+        align-items: center;
+    }
+    .dur{
+        position: relative;
+    }

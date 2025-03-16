@@ -1,0 +1,128 @@
+.header{
+    height: 55px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    z-index:  2;
+    border-bottom-color: rgb(197, 196, 196);
+}
+.left-content{
+    padding-left: 27px;
+    
+    
+}
+.hamburger-menu{
+    height: 20px;
+}
+.youtube-logo{
+    height: 22px;
+    margin-left: 20px;
+}
+
+.centre-content{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    height: 35px;
+    flex: 1;
+    max-width: 400px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    border-radius: 2px;
+    border-width: 0.5px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0,0.15);
+
+}
+.search::placeholder{
+    font-family: Arial;
+    font-size: 15px;
+}
+.search-button{
+    height: 39px;
+    width: 60px;
+    margin-right: 20px;
+    border-style: solid;
+    background-color: rgba(243, 243, 243, 0.863);
+    border-radius: 3px;
+    border-width: 0.5px;
+    border-color:  rgb(145, 145, 145);
+    padding-left: -2;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 5px;
+    
+}
+.voice-search{
+    border-radius: 100px;
+    height:40px;
+    width:40px;
+    border-width: 0px;
+    background-color: rgba(243, 243, 243, 0.863);
+    border-color: rgb(212, 208, 208);
+}
+.voice-icon{
+    height: 23px;
+    padding-top: 3px;
+}
+
+.right-content{
+    width: 200px;
+    flex-shrink:0;
+    align-items: center;
+    position: relative;
+}
+
+.upload-icon{
+    height: 25px;
+}
+.apps-icon{
+    height: 25px;
+}
+.notify{
+    height: 25px;
+}
+.mychannel{
+    height: 30px;
+}
+.right-buttons{
+    color: white;
+    background-color: white;
+    border-width: 0px;
+    padding-right: 10px;
+}
+.notifications{
+    color: white;
+    background-color: white;
+    border-width: 0px;
+    padding-right: 10px;
+    position: relative;
+}
+.count{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    background-color: rgb(194, 27, 27);
+    color: white;
+    top: -2px;
+    right: 5px;
+    font-size: 11px;
+    border-radius: 10px;
+}
